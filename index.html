@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="fun.js" ></script>
+    <title>Confessions</title>
+</head>
+<body style="background-color: lavender;">
+    <h1 style="font-size:8svh; color: rgb(4, 45, 82);">TPC CONFESSIONS</h1>
+    <div style="background-color: rgb(255, 255, 212); border:4px solid white;">
+    <h1 style="font-size: 6svh; color: rgb(236, 128, 132);">Post Your Confessions!</h1>
+    Roll number:<br>
+    <input type="text" id="roll" name="roll" placeholder="23BEC069"><br>
+    Confession:<br>
+    <input type="text" id="con" name="con" placeholder="HI"><br><br>
+        <button onclick="addc()">submit</button>
+</div>
+<br>
+<div style="background-color: rgb(255, 255, 212); border: 4px solid white;">
+      <h1 style="font-size: 6svh; color: rgb(236, 128, 132);">Read Your Confessions!</h1>
+        Roll number:<br>
+        <input type="text" id="rolln" name="roll" placeholder="23BEC069"><br>
+        <button onclick="getc()">submit</button>
+</div>
+<br>
+<br>
+<div id="conff" style="background-color: rgb(255, 255, 212); border: 4px solid white; font-size: 3svh;"></div>
+</body>
+</html>
